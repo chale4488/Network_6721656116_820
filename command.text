@@ -1,0 +1,22 @@
+
+docker -v //เช็ค version
+
+docker ps --all // เช็ค Container
+
+docker run hello-world // Run hello world
+
+docker run busybox ping google.com
+
+docker run nginx
+
+docker exec -it รหัสcontainer  sh
+
+docker stop รหัสcontainer //หยุดัรันก่อนค่อยลบ
+docker rm รหัสcontainer
+
+docker run -p 80:80 nginx 
+              ^ เปลี่ยนเลข port ตรงนี้ให้ไม่ซ้ำคนอื่น
+
+docker run -p 9000:80 nginx
+
+docker run -d -p 8000:80 nginx
