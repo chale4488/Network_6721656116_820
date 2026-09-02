@@ -20,3 +20,22 @@ docker run -p 80:80 nginx
 docker run -p 9000:80 nginx
 
 docker run -d -p 8000:80 nginx
+
+***log
+docker logs
+
+logs -f 
+
+docker system df //ดูข้อมูลพื้นที่
+docker system event 
+
+
+docker images
+docker images rm busybox //ลบด้วยคำสั่ง rm
+
+
+docker network create wordpress //สร้าง network ชื่อ wordpress
+docker network ls
+
+
+XvYib0G*G$$EC(n05h
