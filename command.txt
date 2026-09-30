@@ -1,6 +1,7 @@
 kubectl delete all --all
 
 kubectl apply -f ชื่อไฟล์
+kubectl apply -f . (Run all file)
 
 
 kubectl get all
@@ -8,3 +9,6 @@ kubectl get pods
 
 kubectl delete pods ชื่อpod
 kubectl delete deployment ชื่อdeployment
+
+kubectl port-forward svc/client-service 30001:80
+kubectl port-forward svc/server-service 30002:80
